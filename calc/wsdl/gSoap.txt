@@ -1,0 +1,35 @@
+1. generates a gSOAP header file with familiar C/C++ syntax to define the Web service operations and the C/C++ data types
+
+wsdl2h -o calc.h http://www.genivia.com/calc.wsdl
+wsdl2h -o -s -c calc.h http://www.genivia.com/calc.wsdl
+-s不用STL
+-c生成C代码，而不是C++
+
+2. The gSOAP soapcpp2 compiler then takes this header file and generates XML serializers for the data types (soapH.h and soapC.cpp), the client-side stubs (soapClient.cpp), and server-side skeletons (soapServer.cpp).
+
+soapcpp2 -i -Iimport calc.h
+soapcpp2 -i -C -Iimport calc.h
+-C仅仅是客户端代码
+
+import是stlvector.h文件位置
+
+3. 编译
+C++的依赖soapC.h/soapC.cpp, soapcalcProxy.cpp, stdsoap2.cpp
+
+
+Stub routines can be invoked by a client program to invoke the remote service operations.
+
+
+
+// File: currentTime.h
+// gsoap ns service name: currentTime
+
+// gsoap ns service namespace: urn:currentTime
+// gsoap ns service location: http://www.yourdomain.com/currentTime.cgi
+int ns__currentTime(time_t& response);
+
+soapcpp2 -i -S currentTime.h
+soapcpp2 -i -C currentTime.h
+
+
+soapcpp2 -i -x -e -t -2 DataCenter.h

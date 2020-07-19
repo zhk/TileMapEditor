@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="gb2312"?>
+<tilemap version="1" name="map_xx" type="1" width="16" height="16" wUnitTile="90" hUnitTile="50" footnotes="请输入备注。" backgroundcolor="0" drawgrid="false" gridcolor="32768" regionW="16" regionH="16" DrawGOCenter="false" DrawObstacle="false" DrawRegionGrid="false" regionGridcolor="49344" curlayer="" >
+	<layers >
+		<layer name="Layer_Region" type="4" enable="true" visible="true" >
+			<tilegroup region="0" />
+		</layer>
+		<layer name="Layer_Monster" type="2" enable="false" visible="true" >
+			<tilegroup region="0" />
+		</layer>
+		<layer name="Layer_Event" type="3" enable="false" visible="true" >
+			<tilegroup region="0" />
+		</layer>
+		<layer name="layer_ground" type="0" enable="true" visible="true" >
+			<tilegroup region="0" >
+				<tile posx="0" posy="14" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="0" posy="12" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="0" posy="10" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="0" posy="8" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="0" posy="6" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="0" posy="4" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="0" posy="2" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="0" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="2" posy="14" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="2" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="4" posy="14" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="14" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="12" posy="14" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="10" posy="14" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="14" posy="14" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="14" posy="12" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="6" posy="14" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="14" posy="10" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="14" posy="8" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="14" posy="6" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="14" posy="4" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="14" posy="2" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="14" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="12" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="10" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC01" />
+				<tile posx="6" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC01" />
+				<tile posx="4" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="2" posy="12" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="2" posy="10" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="2" posy="8" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="2" posy="6" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="2" posy="4" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="2" posy="2" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="4" posy="2" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="4" posy="4" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="4" posy="6" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="4" posy="8" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="4" posy="10" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="4" posy="12" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="6" posy="12" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="12" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="10" posy="12" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="12" posy="12" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="12" posy="10" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="10" posy="10" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="10" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="6" posy="10" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="6" posy="8" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="8" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="10" posy="8" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="12" posy="8" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="12" posy="6" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="12" posy="4" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="12" posy="2" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="10" posy="2" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="10" posy="4" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="10" posy="6" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="6" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="6" posy="6" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="6" posy="4" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="4" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="2" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="6" posy="2" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="8" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+				<tile posx="6" posy="0" resGroup="Art_Tri_ground_D" resItemID="GroundC04" />
+			</tilegroup>
+		</layer>
+		<layer name="layer_factury" type="0" enable="true" visible="true" >
+			<tilegroup region="0" >
+				<tile posx="4" posy="4" resGroup="Art_Game_object" resItemID="钢铁厂2" />
+				<tile posx="7" posy="7" resGroup="Art_Game_object" resItemID="炼油厂" />
+				<tile posx="7" posy="4" resGroup="Art_Game_object" resItemID="钢铁厂2" />
+				<tile posx="10" posy="4" resGroup="Art_Game_object" resItemID="钢铁厂2" />
+				<tile posx="10" posy="1" resGroup="Art_Game_object" resItemID="钢铁厂2" />
+				<tile posx="7" posy="1" resGroup="Art_Game_object" resItemID="钢铁厂2" />
+				<tile posx="4" posy="1" resGroup="Art_Game_object" resItemID="钢铁厂2" />
+				<tile posx="1" posy="1" resGroup="Art_Game_object" resItemID="钢铁厂2" />
+				<tile posx="1" posy="4" resGroup="Art_Game_object" resItemID="钢铁厂2" />
+				<tile posx="10" posy="7" resGroup="Art_Game_object" resItemID="炼油厂" />
+				<tile posx="10" posy="10" resGroup="Art_Game_object" resItemID="炼油厂" />
+				<tile posx="7" posy="10" resGroup="Art_Game_object" resItemID="炼油厂" />
+				<tile posx="4" posy="10" resGroup="Art_Game_object" resItemID="炼油厂" />
+				<tile posx="4" posy="7" resGroup="Art_Game_object" resItemID="炼油厂" />
+				<tile posx="1" posy="7" resGroup="Art_Game_object" resItemID="炼油厂" />
+				<tile posx="1" posy="10" resGroup="Art_Game_object" resItemID="炼油厂" />
+			</tilegroup>
+		</layer>
+	</layers>
+	<brush />
+</tilemap>

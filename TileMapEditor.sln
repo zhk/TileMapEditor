@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TileMapEditor", "TileMapEditor\TileMapEditor.vcproj", "{BC13C07C-9A97-4E0F-A07D-389D8460E33D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E} = {D4A4DED6-4671-4507-B5F8-115D4B32DC8E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropertySystem", "PropertySystem\PropertySystem.vcproj", "{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImagePack", "ImagePack\ImagePack.vcproj", "{19AC973A-2248-48A3-B17C-A749BD7DC856}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		StaticDebug|Win32 = StaticDebug|Win32
+		StaticRelease|Win32 = StaticRelease|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC13C07C-9A97-4E0F-A07D-389D8460E33D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC13C07C-9A97-4E0F-A07D-389D8460E33D}.Debug|Win32.Build.0 = Debug|Win32
+		{BC13C07C-9A97-4E0F-A07D-389D8460E33D}.Release|Win32.ActiveCfg = Release|Win32
+		{BC13C07C-9A97-4E0F-A07D-389D8460E33D}.Release|Win32.Build.0 = Release|Win32
+		{BC13C07C-9A97-4E0F-A07D-389D8460E33D}.StaticDebug|Win32.ActiveCfg = Debug|Win32
+		{BC13C07C-9A97-4E0F-A07D-389D8460E33D}.StaticDebug|Win32.Build.0 = Debug|Win32
+		{BC13C07C-9A97-4E0F-A07D-389D8460E33D}.StaticRelease|Win32.ActiveCfg = Release|Win32
+		{BC13C07C-9A97-4E0F-A07D-389D8460E33D}.StaticRelease|Win32.Build.0 = Release|Win32
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}.Debug|Win32.Build.0 = Debug|Win32
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}.Release|Win32.ActiveCfg = Release|Win32
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}.Release|Win32.Build.0 = Release|Win32
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}.StaticDebug|Win32.ActiveCfg = StaticDebug|Win32
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}.StaticDebug|Win32.Build.0 = StaticDebug|Win32
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}.StaticRelease|Win32.ActiveCfg = StaticRelease|Win32
+		{D4A4DED6-4671-4507-B5F8-115D4B32DC8E}.StaticRelease|Win32.Build.0 = StaticRelease|Win32
+		{19AC973A-2248-48A3-B17C-A749BD7DC856}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19AC973A-2248-48A3-B17C-A749BD7DC856}.Debug|Win32.Build.0 = Debug|Win32
+		{19AC973A-2248-48A3-B17C-A749BD7DC856}.Release|Win32.ActiveCfg = Release|Win32
+		{19AC973A-2248-48A3-B17C-A749BD7DC856}.Release|Win32.Build.0 = Release|Win32
+		{19AC973A-2248-48A3-B17C-A749BD7DC856}.StaticDebug|Win32.ActiveCfg = Debug|Win32
+		{19AC973A-2248-48A3-B17C-A749BD7DC856}.StaticDebug|Win32.Build.0 = Debug|Win32
+		{19AC973A-2248-48A3-B17C-A749BD7DC856}.StaticRelease|Win32.ActiveCfg = Release|Win32
+		{19AC973A-2248-48A3-B17C-A749BD7DC856}.StaticRelease|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tilemap version="1" name="map_xx" type="1" width="36" height="36" wUnitTile="160" hUnitTile="80" footnotes="ÇëÊäÈë±¸×¢¡£" backgroundcolor="0" drawgrid="false" gridcolor="32768" regionW="8" regionH="8" DrawGOCenter="false" DrawObstacle="true" DrawRegionGrid="false" regionGridcolor="49344" curlayer="layer_NPC" >
+	<layers >
+		<background name="Layer_Background" enable="true" visible="false" >
+			<tilegroup region="0" >
+			</tilegroup>
+		</background>
+		<layer name="layer_background01" type="0" enable="true" visible="true" >
+			<tilegroup region="0" >
+				<tile posx="0" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="2" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="2" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="2" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="4" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="4" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="4" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="4" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="5" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="5" posy="2" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="7" posy="4" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="7" posy="2" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="7" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+			</tilegroup>
+			<tilegroup region="1" >
+				<tile posx="14" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="15" posy="1" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="9" posy="4" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="9" posy="2" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="9" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="8" posy="6" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="10" posy="7" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="10" posy="6" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="11" posy="6" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="12" posy="5" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="11" posy="4" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="11" posy="2" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="11" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="12" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="13" posy="3" resGroup="Art_Tri_ground_B" resItemID="Farmland0004_9_S" />
+				<tile posx="13" posy="2" resGroup="Art_Tri_ground_B" resItemID="Farmland0004_9_S" />
+				<tile posx="14" posy="4" resGroup="Art_Tri_ground_B" resItemID="Farmland0004_9_S" />
+				<tile posx="14" posy="3" resGroup="Art_Tri_ground_B" resItemID="Farmland0004_9_S" />
+			</tilegroup>
+			<tilegroup region="2" >
+				<tile posx="23" posy="7" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="4" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="2" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="2" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="17" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="19" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="7" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="19" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="21" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="20" posy="2" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="22" posy="2" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="18" posy="4" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="20" posy="4" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="22" posy="4" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="21" posy="7" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="21" posy="5" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="23" posy="5" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="23" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+			</tilegroup>
+			<tilegroup region="3" >
+				<tile posx="29" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="31" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="31" posy="4" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="31" posy="2" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="31" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="29" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="29" posy="1" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="27" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="25" posy="7" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="6" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="29" posy="5" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="3" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="27" posy="1" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="27" posy="5" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="5" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="25" posy="4" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="24" posy="3" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="24" posy="1" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="25" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="25" posy="2" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="27" posy="3" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="28" posy="3" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+			</tilegroup>
+			<tilegroup region="4" >
+				<tile posx="32" posy="7" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="0" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="1" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="4" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="5" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="34" posy="6" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="34" posy="4" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="34" posy="2" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="34" posy="0" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+			</tilegroup>
+			<tilegroup region="5" >
+				<tile posx="0" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="6" >
+				<tile posx="8" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="13" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="15" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="11" posy="9" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="8" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+				<tile posx="9" posy="8" resGroup="Art_Tri_ground_B" resItemID="GrassDead0076_33_S" />
+			</tilegroup>
+			<tilegroup region="7" >
+				<tile posx="22" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="23" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="9" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="17" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="19" posy="11" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="17" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="8" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+			</tilegroup>
+			<tilegroup region="8" >
+				<tile posx="24" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="13" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="25" posy="14" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="12" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="11" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="29" posy="10" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="29" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="27" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="25" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="8" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="27" posy="13" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="15" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="29" posy="14" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="30" posy="15" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="31" posy="14" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+			</tilegroup>
+			<tilegroup region="9" >
+				<tile posx="32" posy="15" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="34" posy="14" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="32" posy="13" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="34" posy="12" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="34" posy="10" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="32" posy="11" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="32" posy="9" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="34" posy="8" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+			</tilegroup>
+			<tilegroup region="10" >
+				<tile posx="0" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="11" >
+				<tile posx="12" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="23" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="12" >
+				<tile posx="22" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="13" >
+				<tile posx="30" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="16" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="17" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="17" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="31" posy="17" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="14" >
+				<tile posx="34" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="34" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="22" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="20" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="34" posy="19" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="33" posy="18" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="33" posy="16" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+				<tile posx="34" posy="16" resGroup="Art_Tri_ground_B" resItemID="GrassDead0068_13_S" />
+			</tilegroup>
+			<tilegroup region="15" >
+				<tile posx="0" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="30" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="2" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="7" posy="28" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="3" posy="29" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="3" posy="30" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="7" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="5" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="7" posy="25" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="7" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="27" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="29" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="16" >
+				<tile posx="14" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="13" posy="28" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="11" posy="28" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="9" posy="28" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="8" posy="28" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="9" posy="29" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="11" posy="29" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="9" posy="27" resGroup="Art_Tri_ground_B" resItemID="Moss0044_2_S" />
+				<tile posx="9" posy="31" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="11" posy="31" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="13" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="15" posy="29" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="13" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="11" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="9" posy="25" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="15" posy="25" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="9" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="11" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="13" posy="29" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="17" >
+				<tile posx="22" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="18" >
+				<tile posx="30" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="19" >
+				<tile posx="34" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="34" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="28" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="30" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="34" posy="26" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="34" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="24" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="20" >
+				<tile posx="0" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="0" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="2" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="4" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="6" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="21" >
+				<tile posx="8" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="8" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="10" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="12" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="14" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="22" >
+				<tile posx="16" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="16" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="18" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="20" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="22" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="23" >
+				<tile posx="24" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="24" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="30" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="28" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="26" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+			<tilegroup region="24" >
+				<tile posx="34" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="34" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="32" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+				<tile posx="32" posy="34" resGroup="Art_Tri_ground_B" resItemID="sea01" />
+			</tilegroup>
+		</layer>
+		<background name="layer_ground_blend" enable="true" visible="true" >
+			<tilegroup region="0" >
+				<tile posx="4712" posy="1289" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4843" posy="1237" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4890" posy="1272" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4812" posy="1307" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4782" posy="1333" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4798" posy="1067" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4711" posy="1022" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4672" posy="1082" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4683" posy="1149" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4835" posy="1048" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4766" posy="982" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4680" posy="942" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4887" posy="1035" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4924" posy="1051" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4734" posy="1039" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4881" posy="1081" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4984" posy="1092" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="5059" posy="1102" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4818" posy="996" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4230" posy="794" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4223" posy="784" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4282" posy="771" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4315" posy="743" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4326" posy="741" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4286" posy="824" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4261" posy="880" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4200" posy="910" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4149" posy="913" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4108" posy="946" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4040" posy="932" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4025" posy="911" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3959" posy="875" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3917" posy="857" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3884" posy="864" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3831" posy="890" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3808" posy="918" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3860" posy="941" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3910" posy="977" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3978" posy="978" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4013" posy="1023" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4056" posy="992" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4065" posy="1053" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3784" posy="1097" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3756" posy="1131" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3704" posy="1133" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3683" posy="1153" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3657" posy="1163" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3711" posy="1211" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3772" posy="1217" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3808" posy="1194" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3834" posy="1188" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3792" posy="1151" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3744" posy="1156" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3879" posy="1139" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3907" posy="1190" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3917" posy="1196" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3924" posy="1214" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4011" posy="1175" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4009" posy="1139" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3980" posy="1091" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3901" posy="1114" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3868" posy="1116" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3998" posy="1071" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3999" posy="1026" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3963" posy="1069" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3916" posy="1106" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="3945" posy="1158" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4105" posy="1171" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4186" posy="1189" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4238" posy="1206" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4279" posy="1216" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4312" posy="1233" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4373" posy="1209" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4407" posy="1233" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4462" posy="1250" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4534" posy="1228" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4568" posy="1237" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4623" posy="1250" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4315" posy="1251" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4550" posy="1185" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4472" posy="1177" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4228" posy="1136" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4187" posy="1139" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4266" posy="1028" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4401" posy="1032" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4426" posy="956" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4571" posy="1112" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4537" posy="1154" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4664" posy="1185" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4719" posy="1233" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4625" posy="1022" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4489" posy="936" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4377" posy="899" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4262" posy="941" resGroup="Art_A_ground" resItemID="A_mud01" />
+				<tile posx="4490" posy="1005" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4347" posy="850" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4463" posy="831" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4575" posy="918" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4548" posy="870" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4891" posy="1025" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4351" posy="1062" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4032" posy="1119" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3604" posy="1118" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3557" posy="1150" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3465" posy="1160" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3521" posy="1126" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3554" posy="1100" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3602" posy="1119" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3657" posy="1150" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3750" posy="1105" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4137" posy="1048" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4225" posy="1043" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4474" posy="1044" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4500" posy="1100" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4497" posy="1068" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4726" posy="1124" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4712" posy="1157" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4736" posy="1200" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4776" posy="1236" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4790" posy="1095" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4848" posy="1322" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4904" posy="1293" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4587" posy="958" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4415" posy="921" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4242" posy="980" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4583" posy="928" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4686" posy="968" resGroup="Art_A_ground" resItemID="A_mud03" />
+				<tile posx="4316" posy="1190" resGroup="Art_A_ground" resItemID="A_mud03" />
+				<tile posx="4334" posy="1010" resGroup="Art_A_ground" resItemID="A_mud03" />
+				<tile posx="4382" posy="811" resGroup="Art_A_ground" resItemID="A_mud03" />
+				<tile posx="4132" posy="1008" resGroup="Art_A_ground" resItemID="A_mud03" />
+				<tile posx="3755" posy="706" resGroup="Art_A_ground" resItemID="A_mud03" />
+				<tile posx="3629" posy="724" resGroup="Art_A_ground" resItemID="A_mud03" />
+				<tile posx="3745" posy="637" resGroup="Art_A_ground" resItemID="A_mud03" />
+				<tile posx="3779" posy="724" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="3656" posy="783" resGroup="Art_A_ground" resItemID="A_sand01" />
+				<tile posx="4374" posy="950" resGroup="Art_A_ground" resItemID="A_Moss0138_10_S" />
+				<tile posx="4042" posy="1096" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3946" posy="1020" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="4124" posy="877" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="4214" posy="839" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="4241" posy="838" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="4675" posy="1281" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="4929" posy="1232" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="4824" posy="1174" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3814" posy="536" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3857" posy="500" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3248" posy="775" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3311" posy="761" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3091" posy="750" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3147" posy="756" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3213" posy="782" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3160" posy="448" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3132" posy="385" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3130" posy="328" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3209" posy="302" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3306" posy="277" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3339" posy="263" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="2738" posy="686" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="2846" posy="748" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="2977" posy="740" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="2818" posy="595" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="2787" posy="651" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="2915" posy="553" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3057" posy="522" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3156" posy="496" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3508" posy="803" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3412" posy="780" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3829" posy="580" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3809" posy="640" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3873" posy="1068" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="3761" posy="893" resGroup="Art_A_ground" resItemID="A_GrassDead0076_33_S" />
+				<tile posx="5001" posy="1109" resGroup="Art_A_ground" resItemID="A_sand04" />
+				<tile posx="4915" posy="1087" resGroup="Art_A_ground" resItemID="A_sand04" />
+				<tile posx="3448" posy="774" resGroup="Art_A_ground" resItemID="A_sand04" />
+				<tile posx="3585" posy="826" resGroup="Art_A_ground" resItemID="A_sand04" />
+				<tile posx="3462" posy="698" resGroup="Art_A_ground" resItemID="A_sand04" />
+				<tile posx="3472" posy="745" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3522" posy="684" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3675" posy="584" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3618" posy="787" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3684" posy="769" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3534" posy="786" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3743" posy="631" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3583" posy="615" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3515" posy="779" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3492" posy="730" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3688" posy="719" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3727" posy="501" resGroup="Art_A_ground" resItemID="A_grass05" />
+				<tile posx="3336" posy="478" resGroup="Art_A_ground" resItemID="A_grass06" />
+				<tile posx="4318" posy="1172" resGroup="Art_A_ground" resItemID="A_grass06" />
+				<tile posx="4664" posy="980" resGroup="Art_A_ground" resItemID="A_grass06" />
+				<tile posx="4398" posy="814" resGroup="Art_A_ground" resItemID="A_grass04" />
+				<tile posx="4354" posy="987" resGroup="Art_A_ground" resItemID="A_grass04" />
+				<tile posx="4380" posy="1845" resGroup="Art_A_ground" resItemID="A_grass04" />
+				<tile posx="4527" posy="1904" resGroup="Art_A_ground" resItemID="A_grass04" />
+				<tile posx="4651" posy="1708" resGroup="Art_A_ground" resItemID="A_grass04" />
+				<tile posx="4858" posy="1774" resGroup="Art_A_ground" resItemID="A_grass06" />
+				<tile posx="4240" posy="2041" resGroup="Art_A_ground" resItemID="A_grass06" />
+				<tile posx="4108" posy="1889" resGroup="Art_A_ground" resItemID="A_grass06" />
+				<tile posx="4055" posy="1769" resGroup="Art_A_ground" resItemID="A_grass06" />
+				<tile posx="4016" posy="1860" resGroup="Art_A_ground" resItemID="A_grass06" />
+				<tile posx="3756" posy="1678" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="3834" posy="1689" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="3772" posy="1709" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="3733" posy="1760" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="3802" posy="1808" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4050" posy="1997" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4158" posy="2090" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4203" posy="2097" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4104" posy="2037" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4217" posy="1767" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4287" posy="1765" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4118" posy="1723" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4022" posy="1698" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="3942" posy="1709" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4175" posy="1759" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4371" posy="1730" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4466" posy="1694" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4507" posy="1623" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4514" posy="1667" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4524" posy="1626" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4523" posy="1649" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4609" posy="1600" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4715" posy="1611" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4801" posy="1650" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4766" posy="1635" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4850" posy="1639" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4941" posy="1609" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5030" posy="1576" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5116" posy="1526" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5179" posy="1466" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5198" posy="1427" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5231" posy="1412" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5353" posy="1413" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5372" posy="1395" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5452" posy="1352" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5529" posy="1319" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5316" posy="1426" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5150" posy="1513" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5166" posy="1426" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4806" posy="1647" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4038" posy="1949" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="3906" posy="1862" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="3969" posy="1903" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4107" posy="2105" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4122" posy="2133" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4322" posy="1902" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4197" posy="1876" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4069" posy="1783" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4483" posy="1825" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4421" posy="1899" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4285" posy="1924" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4379" posy="1975" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4518" posy="1912" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4451" posy="1940" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4290" posy="2018" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4747" posy="1719" resGroup="Art_A_ground" resItemID="B_GrassDead0042_11_S" />
+				<tile posx="4620" posy="1739" resGroup="Art_A_ground" resItemID="B_GrassDead0042_11_S" />
+				<tile posx="4713" posy="1753" resGroup="Art_A_ground" resItemID="B_GrassDead0042_11_S" />
+				<tile posx="4598" posy="1846" resGroup="Art_A_ground" resItemID="B_Gravel0092_5_S" />
+				<tile posx="4661" posy="1805" resGroup="Art_A_ground" resItemID="B_Gravel0092_5_S" />
+				<tile posx="4738" posy="1795" resGroup="Art_A_ground" resItemID="B_Gravel0092_5_S" />
+				<tile posx="4601" posy="1862" resGroup="Art_A_ground" resItemID="B_Gravel0092_5_S" />
+				<tile posx="4573" posy="1862" resGroup="Art_A_ground" resItemID="B_Gravel0092_5_S" />
+				<tile posx="5243" posy="1487" resGroup="Art_A_ground" resItemID="B_Gravel0092_5_S" />
+				<tile posx="5304" posy="1464" resGroup="Art_A_ground" resItemID="B_Gravel0092_5_S" />
+				<tile posx="4944" posy="1684" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5134" posy="1632" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5235" posy="1580" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4907" posy="1712" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5429" posy="1493" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5410" posy="1438" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5361" posy="1551" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5574" posy="1404" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="5064" posy="1654" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4300" posy="1843" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4210" posy="1824" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="3758" posy="1661" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4241" posy="2071" resGroup="Art_A_ground" resItemID="A_grass07" />
+				<tile posx="4122" posy="1074" resGroup="Art_A_ground" resItemID="sand032_splash" />
+				<tile posx="4467" posy="880" resGroup="Art_A_ground" resItemID="sand032_splash" />
+				<tile posx="4534" posy="997" resGroup="Art_A_ground" resItemID="sand032_splash" />
+				<tile posx="4615" posy="1071" resGroup="Art_A_ground" resItemID="sand032_splash" />
+				<tile posx="4450" posy="1189" resGroup="Art_A_ground" resItemID="sand032_splash" />
+				<tile posx="4535" posy="1688" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4538" posy="1772" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="4176" posy="1942" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3907" posy="1740" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3305" posy="637" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3188" posy="540" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3506" posy="510" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3622" posy="447" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3336" posy="330" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3214" posy="359" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3385" posy="529" resGroup="Art_A_ground" resItemID="B_GrassDead0013_2_S" />
+				<tile posx="3396" posy="260" resGroup="Art_A_ground" resItemID="B_lake" />
+				<tile posx="1150" posy="1436" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1169" posy="1430" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1082" posy="1419" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1117" posy="1440" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1152" posy="1511" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1104" posy="1469" resGroup="Art_A_ground" resItemID="B_Moss0191_7_S" />
+				<tile posx="1375" posy="1475" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1466" posy="1526" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1087" posy="1378" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1377" posy="1611" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1702" posy="1673" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1606" posy="1674" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1556" posy="1650" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1710" posy="1645" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1524" posy="1570" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1654" posy="1639" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1509" posy="1627" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1184" posy="1508" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1246" posy="1557" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1177" posy="1396" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1243" posy="1395" resGroup="Art_A_ground" resItemID="B_Moss0044_2_S" />
+				<tile posx="1304" posy="1620" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="1625" posy="1676" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="1581" posy="1621" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3054" posy="707" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3300" posy="749" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3327" posy="516" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3416" posy="401" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3542" posy="415" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3558" posy="461" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3456" posy="475" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3818" posy="508" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3676" posy="423" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3388" posy="304" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="2982" posy="724" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3212" posy="767" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3287" posy="721" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3193" posy="726" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3387" posy="633" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3030" posy="598" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3234" posy="444" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3228" posy="368" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="3531" posy="1165" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4102" posy="1090" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4276" posy="1079" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4868" posy="1049" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4944" posy="1064" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4815" posy="1277" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4916" posy="1255" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="5017" posy="1697" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4791" posy="1693" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4692" posy="1651" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4387" posy="1904" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4337" posy="1981" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4232" posy="1929" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4492" posy="1938" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="4189" posy="1818" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="1203" posy="1566" resGroup="Art_A_ground" resItemID="A_Moss0165_2_S" />
+				<tile posx="1606" posy="1688" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1765" posy="1692" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1679" posy="1672" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1786" posy="1636" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1859" posy="1652" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1817" posy="1668" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1519" posy="1660" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1449" posy="1639" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1679" posy="1681" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1347" posy="1404" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1384" posy="1422" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1460" posy="1461" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1109" posy="1361" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1175" posy="1374" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="1283" posy="1407" resGroup="Art_A_ground" resItemID="B_Gravel0109_1_S" />
+				<tile posx="630" posy="1338" resGroup="Art_A_ground" resItemID="B_Moss0138_10_S" />
+				<tile posx="748" posy="1293" resGroup="Art_A_ground" resItemID="B_Moss0138_10_S" />
+				<tile posx="719" posy="1380" resGroup="Art_A_ground" resItemID="B_Moss0138_10_S" />
+				<tile posx="777" posy="1269" resGroup="Art_A_ground" resItemID="B_Moss0138_10_S" />
+				<tile posx="1125" posy="1433" resGroup="Art_A_ground" resItemID="B_Moss0138_10_S" />
+			</tilegroup>
+		</background>
+		<background name="layer_seablend" enable="true" visible="true" >
+			<tilegroup region="0" >
+				<tile posx="2957" posy="475" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="2632" posy="652" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="2695" posy="581" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="2925" posy="769" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3089" posy="792" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="2721" posy="733" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3298" posy="832" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3327" posy="799" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3128" posy="808" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3045" posy="788" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3227" posy="831" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="4157" posy="767" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="5035" posy="1122" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="4991" posy="1121" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="4620" posy="1142" resGroup="Art_A_ground" resItemID="A_sand04" />
+				<tile posx="3509" posy="1165" resGroup="Art_A_ground" resItemID="A_sand02" />
+				<tile posx="3606" posy="1159" resGroup="Art_A_ground" resItemID="A_sand02" />
+				<tile posx="3599" posy="1108" resGroup="Art_A_ground" resItemID="A_sand02" />
+				<tile posx="3685" posy="1119" resGroup="Art_A_ground" resItemID="A_sand02" />
+				<tile posx="4524" posy="1249" resGroup="Art_A_ground" resItemID="A_sand03" />
+				<tile posx="3722" posy="1609" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3662" posy="1656" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3946" posy="1975" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="4422" posy="1597" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="4411" posy="1620" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="5062" posy="1389" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="4991" posy="1193" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3702" posy="864" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="4197" posy="715" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3889" posy="638" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3482" posy="844" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3598" posy="854" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3608" posy="581" resGroup="Art_A_ground" resItemID="B_lake" />
+				<tile posx="3583" posy="606" resGroup="Art_A_ground" resItemID="B_lake" />
+				<tile posx="3550" posy="590" resGroup="Art_A_ground" resItemID="B_lake" />
+				<tile posx="3576" posy="578" resGroup="Art_A_ground" resItemID="B_lake" />
+				<tile posx="3547" posy="617" resGroup="Art_A_ground" resItemID="B_lake" />
+				<tile posx="3058" posy="344" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3058" posy="406" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="2829" posy="514" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="5074" posy="1107" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3802" posy="1840" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="3838" posy="1571" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="4470" posy="1640" resGroup="Art_A_ground" resItemID="B_lake" />
+				<tile posx="4501" posy="1625" resGroup="Art_A_ground" resItemID="B_lake" />
+				<tile posx="1570" posy="1413" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="1804" posy="1582" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="1876" posy="1595" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="870" posy="1310" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="741" posy="1188" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="447" posy="1312" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="732" posy="1465" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="840" posy="1430" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="870" posy="1336" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="654" posy="1221" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="490" posy="1350" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="565" posy="1393" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="647" posy="1436" resGroup="Art_A_ground" resItemID="B_sea02" />
+				<tile posx="572" posy="1280" resGroup="Art_A_ground" resItemID="B_sea02" />
+			</tilegroup>
+		</background>
+		<layer name="Layer_Region" type="4" enable="true" visible="true" >
+			<tilegroup region="0" />
+			<tilegroup region="1" />
+			<tilegroup region="2" />
+			<tilegroup region="3" />
+			<tilegroup region="4" />
+			<tilegroup region="5" />
+			<tilegroup region="6" />
+			<tilegroup region="7" />
+			<tilegroup region="8" />
+			<tilegroup region="9" />
+			<tilegroup region="10" />
+			<tilegroup region="11" />
+			<tilegroup region="12" />
+			<tilegroup region="13" />
+			<tilegroup region="14" />
+			<tilegroup region="15" />
+			<tilegroup region="16" />
+			<tilegroup region="17" />
+			<tilegroup region="18" />
+			<tilegroup region="19" />
+			<tilegroup region="20" />
+			<tilegroup region="21" />
+			<tilegroup region="22" />
+			<tilegroup region="23" />
+			<tilegroup region="24" />
+		</layer>
+		<layer name="Layer_Monster" type="2" enable="true" visible="true" >
+			<tilegroup region="0" />
+			<tilegroup region="1" />
+			<tilegroup region="2" />
+			<tilegroup region="3" />
+			<tilegroup region="4" />
+			<tilegroup region="5" />
+			<tilegroup region="6" />
+			<tilegroup region="7" />
+			<tilegroup region="8" />
+			<tilegroup region="9" />
+			<tilegroup region="10" />
+			<tilegroup region="11" />
+			<tilegroup region="12" />
+			<tilegroup region="13" />
+			<tilegroup region="14" />
+			<tilegroup region="15" />
+			<tilegroup region="16" />
+			<tilegroup region="17" />
+			<tilegroup region="18" />
+			<tilegroup region="19" />
+			<tilegroup region="20" />
+			<tilegroup region="21" />
+			<tilegroup region="22" />
+			<tilegroup region="23" />
+			<tilegroup region="24" />
+		</layer>
+		<layer name="Layer_Event" type="3" enable="true" visible="true" >
+			<tilegroup region="0" />
+			<tilegroup region="1" />
+			<tilegroup region="2" />
+			<tilegroup region="3" />
+			<tilegroup region="4" />
+			<tilegroup region="5" />
+			<tilegroup region="6" />
+			<tilegroup region="7" />
+			<tilegroup region="8" />
+			<tilegroup region="9" />
+			<tilegroup region="10" />
+			<tilegroup region="11" />
+			<tilegroup region="12" />
+			<tilegroup region="13" />
+			<tilegroup region="14" />
+			<tilegroup region="15" />
+			<tilegroup region="16" />
+			<tilegroup region="17" />
+			<tilegroup region="18" />
+			<tilegroup region="19" />
+			<tilegroup region="20" />
+			<tilegroup region="21" />
+			<tilegroup region="22" />
+			<tilegroup region="23" />
+			<tilegroup region="24" />
+		</layer>
+		<background name="layer_tree" enable="true" visible="true" >
+			<tilegroup region="0" >
+				<tile posx="3396" posy="666" resGroup="Art_Plantgamedata2" resItemID="plant03" />
+				<tile posx="3624" posy="738" resGroup="Art_Plantgamedata2" resItemID="plant03" />
+				<tile posx="3472" posy="714" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="3473" posy="650" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3567" posy="707" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3631" posy="657" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3735" posy="738" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="3777" posy="597" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="3804" posy="671" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3666" posy="569" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3743" posy="633" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3726" posy="641" resGroup="Art_Plantgamedata2" resItemID="plant03" />
+				<tile posx="3546" posy="603" resGroup="Art_Plantgamedata2" resItemID="plant03" />
+				<tile posx="3488" posy="622" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="3633" posy="589" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3703" posy="652" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3702" posy="725" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3649" posy="614" resGroup="Art_Plantgamedata2" resItemID="plant07" />
+				<tile posx="3637" posy="686" resGroup="Art_Plantgamedata2" resItemID="plant07" />
+				<tile posx="3587" posy="716" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="3595" posy="406" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3794" posy="461" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3233" posy="665" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="3115" posy="613" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3735" posy="410" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3764" posy="505" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="2852" posy="640" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="2960" posy="665" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="2926" posy="609" resGroup="Art_Plantgamedata2" resItemID="plant07" />
+				<tile posx="3021" posy="647" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="2922" posy="664" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3223" posy="721" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="3612" posy="477" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="3529" posy="455" resGroup="Art_Plantgamedata2" resItemID="plant08" />
+				<tile posx="3225" posy="522" resGroup="Art_Plantgamedata2" resItemID="plant08" />
+				<tile posx="3946" posy="1163" resGroup="Art_Plantgamedata2" resItemID="plant08" />
+				<tile posx="4338" posy="1141" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="4623" posy="1098" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="4431" posy="774" resGroup="Art_Plantgamedata2" resItemID="plant03" />
+				<tile posx="4350" posy="972" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="4164" posy="993" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="4700" posy="1057" resGroup="Art_Plantgamedata2" resItemID="plant08" />
+				<tile posx="4765" posy="1105" resGroup="Art_Plantgamedata2" resItemID="plant09" />
+				<tile posx="4743" posy="924" resGroup="Art_Plantgamedata2" resItemID="plant09" />
+				<tile posx="4769" posy="913" resGroup="Art_Plantgamedata2" resItemID="plant09" />
+				<tile posx="4365" posy="837" resGroup="Art_Plantgamedata2" resItemID="plant09" />
+				<tile posx="4099" posy="1724" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="4032" posy="1811" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="4136" posy="1845" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="4396" posy="1792" resGroup="Art_Plantgamedata2" resItemID="plant07" />
+				<tile posx="4563" posy="1854" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="4246" posy="1996" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="4894" posy="1746" resGroup="Art_Plantgamedata2" resItemID="plant08" />
+				<tile posx="4652" posy="1665" resGroup="Art_Plantgamedata2" resItemID="plant07" />
+				<tile posx="5560" posy="1413" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="1809" posy="1656" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="1858" posy="1682" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="1819" posy="1707" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="1908" posy="1670" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="1834" posy="1663" resGroup="Art_Plantgamedata2" resItemID="plant03" />
+				<tile posx="1692" posy="1653" resGroup="Art_Plantgamedata2" resItemID="plant03" />
+				<tile posx="1739" posy="1683" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="1637" posy="1682" resGroup="Art_Plantgamedata2" resItemID="plant02" />
+				<tile posx="1094" posy="1395" resGroup="Art_Plantgamedata2" resItemID="plant02" />
+				<tile posx="1136" posy="1351" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="1207" posy="1377" resGroup="Art_Plantgamedata2" resItemID="plant02" />
+				<tile posx="1121" posy="1424" resGroup="Art_Plantgamedata2" resItemID="plant06" />
+				<tile posx="1537" posy="1449" resGroup="Art_Plantgamedata2" resItemID="plant08" />
+				<tile posx="1249" posy="1554" resGroup="Art_Plantgamedata2" resItemID="plant08" />
+				<tile posx="1358" posy="1611" resGroup="Art_Plantgamedata2" resItemID="plant08" />
+				<tile posx="690" posy="1313" resGroup="Art_Plantgamedata2" resItemID="plant03" />
+				<tile posx="788" posy="1273" resGroup="Art_Plantgamedata2" resItemID="plant04" />
+				<tile posx="815" posy="1335" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="761" posy="1297" resGroup="Art_Plantgamedata2" resItemID="plant05" />
+				<tile posx="815" posy="1351" resGroup="Art_Plantgamedata2" resItemID="plant07" />
+			</tilegroup>
+		</background>
+		<background name="layer_building" enable="true" visible="true" >
+			<tilegroup region="0" >
+				<tile posx="3154" posy="682" resGroup="Art_building" resItemID="Shed01~02_d" />
+				<tile posx="3385" posy="307" resGroup="Art_building" resItemID="Shed01~02_c" />
+				<tile posx="3445" posy="284" resGroup="Art_building" resItemID="RusHouse9_d" />
+				<tile posx="3942" posy="939" resGroup="Art_building" resItemID="Factoryboiler_01" />
+				<tile posx="4488" posy="1747" resGroup="Art_building" resItemID="building4" />
+				<tile posx="4659" posy="1774" resGroup="Art_building" resItemID="building3" />
+				<tile posx="4628" posy="1833" resGroup="Art_building" resItemID="building1_02" />
+				<tile posx="4780" posy="1828" resGroup="Art_building" resItemID="building6_01" />
+				<tile posx="5302" posy="1447" resGroup="Art_building" resItemID="RusHouse9_a" />
+				<tile posx="4292" posy="1833" resGroup="Art_building" resItemID="Shed01~02_b" />
+				<tile posx="3864" posy="484" resGroup="Art_Game_object" resItemID="Raid1_R" />
+				<tile posx="3008" posy="682" resGroup="Art_Game_object" resItemID="Raid1_L" />
+				<tile posx="3344" posy="384" resGroup="Art_Game_object" resItemID="003h" />
+				<tile posx="1290" posy="1504" resGroup="Art_Game_object" resItemID="003" />
+				<tile posx="5006" posy="1582" resGroup="Art_Game_object" resItemID="003e" />
+			</tilegroup>
+		</background>
+		<layer name="layer_NPC" type="0" enable="true" visible="true" >
+			<tilegroup region="0" />
+			<tilegroup region="1" >
+				<tile posx="9" posy="3" resGroup="Art_NPC" resItemID="Ju52" />
+				<tile posx="8" posy="2" resGroup="Art_NPC" resItemID="Ju52" />
+				<tile posx="10" posy="4" resGroup="Art_NPC" resItemID="Me323" />
+			</tilegroup>
+			<tilegroup region="2" >
+				<tile posx="19" posy="6" resGroup="Art_Game_object" resItemID="Navicenter" />
+			</tilegroup>
+			<tilegroup region="3" >
+				<tile posx="26" posy="6" resGroup="Art_Game_object" resItemID="Navicenter" />
+			</tilegroup>
+			<tilegroup region="4" >
+				<tile posx="35" posy="6" resGroup="Art_NPC" resItemID="Ju52" />
+			</tilegroup>
+			<tilegroup region="5" />
+			<tilegroup region="6" >
+				<tile posx="15" posy="14" resGroup="Art_NPC" resItemID="USA_Iowa" />
+				<tile posx="14" posy="12" resGroup="Art_NPC" resItemID="German_Destroyer" />
+				<tile posx="15" posy="10" resGroup="Art_NPC" resItemID="German_Cruiser" />
+			</tilegroup>
+			<tilegroup region="7" >
+				<tile posx="18" posy="13" resGroup="Art_NPC" resItemID="German_Cruiser" />
+				<tile posx="19" posy="14" resGroup="Art_NPC" resItemID="German_Destroyer" />
+				<tile posx="16" posy="14" resGroup="Art_NPC" resItemID="German_Frigate" />
+				<tile posx="17" posy="15" resGroup="Art_NPC" resItemID="U_boat_update" />
+				<tile posx="20" posy="12" resGroup="Art_NPC" resItemID="USA_Cleveland_Cruiser" />
+				<tile posx="20" posy="14" resGroup="Art_NPC" resItemID="USA_Iowa" />
+				<tile posx="21" posy="14" resGroup="Art_NPC" resItemID="USA_Iowa" />
+				<tile posx="16" posy="11" resGroup="Art_NPC" resItemID="German_Destroyer" />
+				<tile posx="17" posy="11" resGroup="Art_NPC" resItemID="German_Cruiser" />
+				<tile posx="23" posy="15" resGroup="Art_NPC" resItemID="USA_Iowa" />
+				<tile posx="22" posy="15" resGroup="Art_NPC" resItemID="USA_Submarine" />
+				<tile posx="23" posy="13" resGroup="Art_NPC" resItemID="USA_Submarine" />
+				<tile posx="22" posy="12" resGroup="Art_NPC" resItemID="USA_Submarine" />
+				<tile posx="16" posy="8" resGroup="Art_NPC" resItemID="USA_Submarine" />
+				<tile posx="19" posy="9" resGroup="Art_NPC" resItemID="Churchill" />
+				<tile posx="20" posy="9" resGroup="Art_NPC" resItemID="Churchill" />
+				<tile posx="19" posy="10" resGroup="Art_NPC" resItemID="Churchill" />
+				<tile posx="21" posy="9" resGroup="Art_NPC" resItemID="Churchill" />
+				<tile posx="22" posy="14" resGroup="Art_NPC" resItemID="German_Frigate" />
+				<tile posx="21" posy="11" resGroup="Art_NPC" resItemID="German_Denglu" />
+				<tile posx="22" posy="11" resGroup="Art_NPC" resItemID="German_Denglu" />
+				<tile posx="23" posy="12" resGroup="Art_NPC" resItemID="German_transport" />
+				<tile posx="17" posy="9" resGroup="Art_NPC" resItemID="German_BattleCrusier" />
+				<tile posx="20" posy="11" resGroup="Art_NPC" resItemID="Aliance_denglu" />
+				<tile posx="19" posy="11" resGroup="Art_NPC" resItemID="Aliance_denglu" />
+				<tile posx="18" posy="10" resGroup="Art_NPC" resItemID="Aliance_denglu" />
+				<tile posx="18" posy="11" resGroup="Art_NPC" resItemID="Aliance_denglu" />
+				<tile posx="18" posy="15" resGroup="Art_NPC" resItemID="U_boat_update" />
+				<tile posx="22" posy="9" resGroup="Art_Game_object" resItemID="Navicenter" />
+			</tilegroup>
+			<tilegroup region="8" >
+				<tile posx="24" posy="12" resGroup="Art_NPC" resItemID="C47" />
+				<tile posx="24" posy="13" resGroup="Art_NPC" resItemID="Bismark" />
+				<tile posx="27" posy="14" resGroup="Art_NPC" resItemID="Bismark" />
+				<tile posx="29" posy="12" resGroup="Art_Game_object" resItemID="Navicenter" />
+			</tilegroup>
+			<tilegroup region="9" />
+			<tilegroup region="10" />
+			<tilegroup region="11" />
+			<tilegroup region="12" >
+				<tile posx="19" posy="17" resGroup="Art_NPC" resItemID="USA_Submarine" />
+				<tile posx="21" posy="17" resGroup="Art_NPC" resItemID="USA_Cleveland_Cruiser" />
+				<tile posx="19" posy="16" resGroup="Art_NPC" resItemID="U_boat_update" />
+				<tile posx="19" posy="18" resGroup="Art_NPC" resItemID="USA_Submarine" />
+				<tile posx="23" posy="17" resGroup="Art_NPC" resItemID="USA_Submarine" />
+				<tile posx="20" posy="16" resGroup="Art_NPC" resItemID="German_Frigate" />
+				<tile posx="18" posy="17" resGroup="Art_NPC" resItemID="German_transport" />
+				<tile posx="23" posy="18" resGroup="Art_NPC" resItemID="German_BattleCrusier" />
+				<tile posx="17" posy="16" resGroup="Art_NPC" resItemID="U_boat" />
+			</tilegroup>
+			<tilegroup region="13" >
+				<tile posx="25" posy="16" resGroup="Art_NPC" resItemID="USA_Aircraft_carrier" />
+				<tile posx="24" posy="16" resGroup="Art_NPC" resItemID="German_BattleCrusier" />
+				<tile posx="24" posy="18" resGroup="Art_NPC" resItemID="Aliace_transport0" />
+				<tile posx="25" posy="19" resGroup="Art_NPC" resItemID="Aliace_transport0" />
+				<tile posx="26" posy="16" resGroup="Art_NPC" resItemID="Bismark" />
+				<tile posx="28" posy="18" resGroup="Art_NPC" resItemID="P47" />
+				<tile posx="29" posy="21" resGroup="Art_NPC" resItemID="Me323" />
+				<tile posx="27" posy="19" resGroup="Art_NPC" resItemID="P51" />
+				<tile posx="28" posy="22" resGroup="Art_NPC" resItemID="Me323" />
+				<tile posx="26" posy="20" resGroup="Art_NPC" resItemID="Spitfire" />
+				<tile posx="31" posy="22" resGroup="Art_NPC" resItemID="Il2" />
+				<tile posx="30" posy="18" resGroup="Art_NPC" resItemID="P51" />
+			</tilegroup>
+			<tilegroup region="14" >
+				<tile posx="32" posy="19" resGroup="Art_NPC" resItemID="He111" />
+				<tile posx="32" posy="21" resGroup="Art_NPC" resItemID="Hs129" />
+			</tilegroup>
+			<tilegroup region="15" />
+			<tilegroup region="16" >
+				<tile posx="9" posy="28" resGroup="Art_NPC" resItemID="Me323" />
+				<tile posx="10" posy="28" resGroup="Art_NPC" resItemID="Me323" />
+				<tile posx="11" posy="28" resGroup="Art_NPC" resItemID="Me323" />
+			</tilegroup>
+			<tilegroup region="17" />
+			<tilegroup region="18" />
+			<tilegroup region="19" />
+			<tilegroup region="20" />
+			<tilegroup region="21" />
+			<tilegroup region="22" />
+			<tilegroup region="23" />
+			<tilegroup region="24" />
+		</layer>
+	</layers>
+	<brush />
+</tilemap>

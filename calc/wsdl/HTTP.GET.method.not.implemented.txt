@@ -1,0 +1,102 @@
+见参考文档19.10节
+http://localhost:8090/?wsdl
+
+Pinaki,
+
+This is very helpful. It works.
+
+We use http://localhost:18083/AddNumbersImplService.wsdl  to tell the
+server the name of the wsdl document. It meets our requirement.
+
+Thanks.
+
+________________________________
+
+From: gso...@yahoogroups.com [mailto:gso...@yahoogroups.com] On Behalf Of
+Pinaki
+Sent: Tuesday, August 15, 2006 8:26 PM
+To: gso...@yahoogroups.com
+Subject: Re: [gsoap] Error: HTTP GET method not implemented
+
+Try someting like this function, it should help:
+
+int http_get_handler(struct soap *soap)
+{ 
+ printf("HTTP GET has been called\n");
+
+ FILE *fd;
+ size_t r;
+
+ if (!soap_tag_cmp(soap->path, "*.html")) 
+ {  
+  char buf[20];  
+  fprintf(stderr,"HTML file has been asked\n");  
+  soap_response(soap, SOAP_HTML);  
+  sprintf(buf, "<html>HTTP GET OK</html>");  
+
+  soap_send(soap, buf);  
+  soap_end_send(soap);  
+
+  return SOAP_OK; 
+ }  
+ if (!soap_tag_cmp(soap->path, "*.xml")|| !soap_tag_cmp(soap->path,
+"*.xsd")|| !soap_tag_cmp(soap->path, "*.wsdl"))  
+ {     
+   printf("xml / xsd / wsdl file has been asked\n"); 
+  fd =
+fopen("/garl/garl-alpha1/home/pinaki/MSRProject/usingMSSQL-4/dimeservice
+.wsdl", "rb");    
+  if (!fd)
+   return 404; // return HTTP not found error  
+
+  soap->http_content="text/xml";    
+  soap_response(soap,SOAP_FILE); 
+
+  for (;;)
+  {
+   r = fread(soap->tmpbuf, 1, sizeof(soap->tmpbuf), fd);
+
+   if (!r)
+    break;
+
+   if (soap_send_raw(soap, soap->tmpbuf, r))
+    break; 
+  }
+
+  fclose(fd);
+  soap_end_send(soap);
+  return SOAP_OK;   
+ }  
+
+ if (soap->path[1] == '\0' || soap-> path[1] == '?')  
+  printf("NULL value\n"); 
+ return 0; 
+
+}
+
+Here the wsdl file being sent and its location mainly needs to be
+changed. You need some other plugins elsewhere
+
+Guofeng Zhang
+<guofeng@QXQxEt0snaUoSb-DsHI36lWb1OwmWezyCKblFCr_ObssJNEiTruZ0pFoCrRcZnkXgxAjK9Eg9YPey84.yahoo.invalid>
+wrote:
+
+	Hi,
+
+	When I use JAX-WS 2.0 client to call a web service developed in
+gSOAP, I got the following error:
+
+	Error 14 fault: SOAP-ENV:Client [no subcode]
+
+	"HTTP GET method not implemented"
+
+	Detail: [no detail]
+
+	I think this is because the client tries to use the HTTP GET
+method to retrieve the WSDL document from the server.
+
+	How to solve it, or is there a work-around solution about it?
+
+	Thanks for your help very much.
+
+	Guofeng

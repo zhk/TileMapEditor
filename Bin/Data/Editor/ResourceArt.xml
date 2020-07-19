@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<resourceart >
+	<background />
+	<tiles >
+		<item name="Art_A_ground" type="folder" folder="art\ww\a_ground\" iconsize="64" ext="png" />
+		<item name="Art_Ext_Avatar_Nazi_big" type="folder" folder="art\ww\ext_avatar_nazi_big\" iconsize="64" ext="png" />
+		<item name="Art_Ext_Avatar_Nazi_small" type="folder" folder="art\ww\ext_avatar_nazi_small\" iconsize="64" ext="png" />
+		<item name="Art_Ext_Avatar_Sovia_big" type="folder" folder="art\ww\ext_avatar_sovia_big\" iconsize="64" ext="png" />
+		<item name="Art_Ext_Avatar_Sovia_small" type="folder" folder="art\ww\ext_avatar_sovia_small\" iconsize="64" ext="png" />
+		<item name="Art_Game_object" type="folder" folder="art\ww\game_object\" iconsize="64" ext="png" />
+		<item name="Art_NPC" type="folder" folder="art/WW/NPC/" iconsize="64" ext="png" />
+		<item name="Art_NPC2" type="folder" folder="art\ww\npc2\" iconsize="64" ext="png" />
+		<item name="Art_Plantgamedata" type="folder" folder="art/WW/Plantgamedata/" iconsize="64" ext="png" />
+		<item name="Art_Plantgamedata1" type="folder" folder="art/WW/Plantgamedata1/" iconsize="64" ext="png" />
+		<item name="Art_Plantgamedata2" type="folder" folder="art/WW/Plantgamedata2/" iconsize="64" ext="png" />
+		<item name="Art_Plantgamedata3" type="folder" folder="art/WW/Plantgamedata3/" iconsize="64" ext="png" />
+		<item name="Art_Props" type="folder" folder="art\ww\props\" iconsize="64" ext="png" />
+		<item name="Art_SFX_environment" type="folder" folder="art\ww\sfx_environment\" iconsize="64" ext="png" />
+		<item name="Art_T_8bitbuilding" type="folder" folder="art\ww\t_8bitbuilding\" iconsize="64" ext="png" />
+		<item name="Art_Terrain" type="folder" folder="art\ww\terrain\" iconsize="64" ext="png" />
+		<item name="Art_Tri_ground" type="folder" folder="art\ww\tri_ground\" iconsize="64" ext="png" />
+		<item name="Art_Tri_ground_B" type="folder" folder="art\ww\tri_ground_b\" iconsize="64" ext="png" />
+		<item name="Art_Tri_ground_C" type="folder" folder="art\ww\tri_ground_c\" iconsize="64" ext="png" />
+		<item name="Art_Tri_ground_D" type="folder" folder="art\ww\tri_ground_d\" iconsize="64" ext="png" />
+		<item name="Art_broken_building" type="folder" folder="art\ww\broken_building\" iconsize="64" ext="png" />
+		<item name="Art_building" type="folder" folder="art\ww\building\" iconsize="64" ext="png" />
+		<item name="Art_bunk" type="folder" folder="art\ww\bunk\" iconsize="64" ext="png" />
+		<item name="Art_desert" type="folder" folder="art\ww\desert\" iconsize="64" ext="png" />
+		<item name="Art_dirty" type="folder" folder="art\ww\dirty\" iconsize="64" ext="png" />
+		<item name="Art_game_building" type="folder" folder="art\ww\game_building\" iconsize="64" ext="png" />
+		<item name="Art_localcity" type="folder" folder="art\ww\localcity\" iconsize="64" ext="png" />
+		<item name="Art_others" type="folder" folder="art\ww\others\" iconsize="64" ext="png" />
+		<item name="Art_road" type="folder" folder="art\ww\road\" iconsize="64" ext="png" />
+		<item name="Art_snow" type="folder" folder="art\ww\snow\" iconsize="64" ext="png" />
+		<item name="Art_test" type="folder" folder="art\ww\test\" iconsize="64" ext="png" />
+	</tiles>
+</resourceart>

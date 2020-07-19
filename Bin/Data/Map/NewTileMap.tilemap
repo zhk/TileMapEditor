@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="gb2312"?>
+<tilemap version="1" name="map_xx" type="1" width="24" height="24" wUnitTile="160" hUnitTile="80" footnotes="请输入备注。" backgroundcolor="0" drawgrid="true" gridcolor="32768" regionW="8" regionH="8" DrawGOCenter="true" DrawObstacle="true" DrawRegionGrid="true" regionGridcolor="49344" curlayer="Layer_Region" >
+	<layers >
+		<background name="Layer_Background" enable="true" visible="true" >
+			<tilegroup region="0" />
+		</background>
+		<layer name="Layer_Region" type="4" enable="true" visible="true" >
+			<tilegroup region="0" />
+			<tilegroup region="1" />
+			<tilegroup region="2" />
+			<tilegroup region="3" />
+			<tilegroup region="4" >
+				<tile posx="9" posy="11" resGroup="Region" resItemID="平原" />
+				<tile posx="9" posy="12" resGroup="Region" resItemID="平原" />
+				<tile posx="9" posy="13" resGroup="Region" resItemID="沙漠" />
+				<tile posx="10" posy="11" resGroup="Region" resItemID="平原" />
+				<tile posx="10" posy="12" resGroup="Region" resItemID="平原" />
+				<tile posx="10" posy="13" resGroup="Region" resItemID="沙漠" />
+				<tile posx="11" posy="11" resGroup="Region" resItemID="平原" />
+				<tile posx="11" posy="12" resGroup="Region" resItemID="平原" />
+				<tile posx="12" posy="11" resGroup="Region" resItemID="森林" />
+				<tile posx="12" posy="12" resGroup="Region" resItemID="森林" />
+				<tile posx="12" posy="10" resGroup="Region" resItemID="森林" />
+				<tile posx="13" posy="10" resGroup="Region" resItemID="森林" />
+				<tile posx="13" posy="11" resGroup="Region" resItemID="森林" />
+				<tile posx="13" posy="12" resGroup="Region" resItemID="森林" />
+				<tile posx="14" posy="10" resGroup="Region" resItemID="森林" />
+				<tile posx="14" posy="11" resGroup="Region" resItemID="森林" />
+				<tile posx="14" posy="12" resGroup="Region" resItemID="森林" />
+				<tile posx="15" posy="10" resGroup="Region" resItemID="森林" />
+				<tile posx="15" posy="11" resGroup="Region" resItemID="森林" />
+				<tile posx="15" posy="12" resGroup="Region" resItemID="森林" />
+				<tile posx="13" posy="13" resGroup="Region" resItemID="天空" />
+				<tile posx="13" posy="14" resGroup="Region" resItemID="天空" />
+				<tile posx="12" posy="13" resGroup="Region" resItemID="天空" />
+				<tile posx="12" posy="14" resGroup="Region" resItemID="天空" />
+				<tile posx="14" posy="13" resGroup="Region" resItemID="城市" />
+				<tile posx="14" posy="14" resGroup="Region" resItemID="城市" />
+				<tile posx="15" posy="13" resGroup="Region" resItemID="城市" />
+				<tile posx="15" posy="14" resGroup="Region" resItemID="城市" />
+				<tile posx="10" posy="9" resGroup="Region" resItemID="海洋" />
+				<tile posx="10" posy="10" resGroup="Region" resItemID="河流" />
+				<tile posx="11" posy="9" resGroup="Region" resItemID="海洋" />
+				<tile posx="11" posy="10" resGroup="Region" resItemID="河流" />
+				<tile posx="9" posy="9" resGroup="Region" resItemID="海洋" />
+				<tile posx="12" posy="9" resGroup="Region" resItemID="海洋" />
+			</tilegroup>
+			<tilegroup region="5" />
+			<tilegroup region="6" />
+			<tilegroup region="7" />
+			<tilegroup region="8" />
+		</layer>
+		<layer name="Layer_Monster" type="2" enable="true" visible="true" >
+			<tilegroup region="0" />
+			<tilegroup region="1" />
+			<tilegroup region="2" />
+			<tilegroup region="3" />
+			<tilegroup region="4" />
+			<tilegroup region="5" />
+			<tilegroup region="6" />
+			<tilegroup region="7" />
+			<tilegroup region="8" />
+		</layer>
+		<layer name="Layer_Event" type="3" enable="true" visible="true" >
+			<tilegroup region="0" />
+			<tilegroup region="1" />
+			<tilegroup region="2" />
+			<tilegroup region="3" />
+			<tilegroup region="4" />
+			<tilegroup region="5" />
+			<tilegroup region="6" />
+			<tilegroup region="7" />
+			<tilegroup region="8" />
+		</layer>
+	</layers>
+	<brush />
+</tilemap>
